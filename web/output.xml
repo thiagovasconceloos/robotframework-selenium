@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.10.4 on win32)" generated="20220514 16:51:57.238" rpa="false" schemaversion="3">
+<suite id="s1" name="Title" source="C:\Users\2102915200\Documents\Projetos\selenium-robot\web\title.robot">
+<test id="s1-t1" name="Deve validar o titulo" line="6">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://training-wheels-protocol.herokuapp.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220514 16:51:58.025" level="INFO">Opening browser 'chrome' to base url 'https://training-wheels-protocol.herokuapp.com/'.</msg>
+<status status="PASS" starttime="20220514 16:51:58.025" endtime="20220514 16:52:14.603"/>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>Training Wheels Protocol</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<msg timestamp="20220514 16:52:14.625" level="INFO">Page title is 'Training Wheels Protocol'.</msg>
+<status status="PASS" starttime="20220514 16:52:14.604" endtime="20220514 16:52:14.626"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220514 16:52:14.626" endtime="20220514 16:52:17.044"/>
+</kw>
+<status status="PASS" starttime="20220514 16:51:58.023" endtime="20220514 16:52:17.046"/>
+</test>
+<status status="PASS" starttime="20220514 16:51:57.244" endtime="20220514 16:52:17.051"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Title">Title</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
